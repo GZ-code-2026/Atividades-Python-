@@ -14,6 +14,6 @@ print(f"Maior consumo: {maior_consumo:.2f}")
 print(f"Menor consumo: {menor_consumo:.2f}")
 print(f"Meses acima da média: {meses_acima_media}")
 
-# Desafio extra: posição do mês de maior consumo
+# Desafio extra
 posicao_maior = Consumo_mensal.index(maior_consumo) + 1
 print(f"O maior consumo ocorreu no mês {posicao_maior}")
